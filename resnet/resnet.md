@@ -12,7 +12,7 @@ Solution: *Residual learning*
 
 ### Residual Block and Shortcut
 
-![Residual Learning](./images/Fig2_Residual_learning_a_building_block.PNG)
+![Residual Learning](./images/resnet/Fig2_Residual_learning_a_building_block.PNG)
 
 ### Network Architectures
 
@@ -34,7 +34,7 @@ When the dimensions increase (dotted line in the figure below):
 
 **Architectures**
 
-![Example network architectures](./images/Fig3_Example_network_architectures_for_ImageNet.PNG)
+![Example network architectures](./images/resnet/Fig3_Example_network_architectures_for_ImageNet.PNG)
 
 ![Architectures](./images/Table1_Architectures_for_ImageNet.PNG)
 
@@ -60,9 +60,9 @@ The models are trained on the 1.28 million training images, and evaluated on the
 
 A final result is obtained on the 100k test images and evaluated both top-1 and top-5 error rates.
 
-![Training on ImageNet](./images/Fig4_Training_on_ImageNet.PNG)
+![Training on ImageNet](./images/resnet/Fig4_Training_on_ImageNet.PNG)
 
-![Error rates](./images/Table3_Error_rates_on_ImageNet_validation.PNG)
+![Error rates](./images/resnet/Table3_Error_rates_on_ImageNet_validation.PNG)
 
 **Deeper Bottleneck Architectures**
 
@@ -70,7 +70,7 @@ The three layers are 1x1, 3x3, and 1x1 convolutions, where the 1x1 alyers are re
 
 Option B is used for increasing dimensions. (Projection shortcut)
 
-![Bottleneck](./images/Fig5_A_deeper_residual_function_F_for_ImageNet.PNG)
+![Bottleneck](./images/resnet/Fig5_A_deeper_residual_function_F_for_ImageNet.PNG)
 
 ### CIFAR-10 and Analysis
 
