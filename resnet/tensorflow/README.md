@@ -1,46 +1,25 @@
-# ResNet, ResNetV2, ResNext
+# Experiments
 
-## Train ResNet with TensorFlow
+## ResNet
 
 Dataset: CIFAR-10
 
-Batch size: 128
-
 Shortcut: Projection shortcut (Option B, 1x1 convolution)
 
-### [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
+Batch size: 128
 
 Epochs: 200
 
-#### Classification Error on the CIFAR-10 Test Set
+### Classification Error on the CIFAR-10 Test Set
 
-|model|# params|error|
-|-----|--------|-----|
-|ResNet20|274,442|9.25|
-|ResNet110|1,742,762|7.49|
+|model|# total params|# trainable params|error|
+|-----|:------------:|:----------------:|:---:|
+|ResNet20|274,442|273,066|9.28|
+|ResNet32|470,218|467,946|8.19|
+|ResNet44|665,994|662,826|7.91|
+|ResNet56|861,770|857,706|7.80|
+|ResNet110|1,742,762|1,734,666|7.49|
 
-#### ResNet20
+![ResNets CIFAR10](./resnet/images/ResNets_CIFAR10.png)
 
-![ResNet20](./images/ResNet20v1e200.png)
-
-#### ResNet20 vs. ResNet110
-
-![CIFAR10_ResNet20_ResNet110_Epoch200](./images/cifar10_resnet20_110_train_test_epoch200.png)
-
-#### ResNet20 with Horizontal Flip vs. ResNet20 with Horizontal Flip and Vertical Flip
-
-![CIFAR10_ResNet20_HF_HFVF_Epoch200](./images/cifar10_resnet20_hf_hfvf_train_test_epoch200.png)
-
-### [ResNetV2](https://arxiv.org/pdf/1603.05027.pdf)
-
-#### ResNet20V2
-![ResNet20v2](./images/cifar10_resnet20v1_resnet20v2_train_test_epoch200.png)
-
-### [ResNext](https://arxiv.org/pdf/1611.05431.pdf)
-
-#### ResNext29
-
-Experiments on CIFAR followed the paper.
-
-Epochs: 300
-
+![ResNets CIFAR10 Close-Up](./resnet/images/ResNets_CIFAR10_Closeup.png)
