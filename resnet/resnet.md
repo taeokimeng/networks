@@ -36,7 +36,7 @@ When the dimensions increase (dotted line in the figure below):
 
 ![Example network architectures](./images/resnet/Fig3_Example_network_architectures_for_ImageNet.PNG)
 
-![Architectures](./images/Table1_Architectures_for_ImageNet.PNG)
+![Architectures](./images/resnet/Table1_Architectures_for_ImageNet.PNG)
 
 ### Implementation
 
