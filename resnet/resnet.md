@@ -66,7 +66,7 @@ A final result is obtained on the 100k test images and evaluated both top-1 and 
 
 **Deeper Bottleneck Architectures**
 
-The three layers are 1x1, 3x3, and 1x1 convolutions, where the 1x1 alyers are responsible for reducing and then increasing (restoring) dimensions.
+The three layers are 1x1, 3x3, and 1x1 convolutions, where the 1x1 layers are responsible for reducing and then increasing (restoring) dimensions.
 
 Option B is used for increasing dimensions. (Projection shortcut)
 
